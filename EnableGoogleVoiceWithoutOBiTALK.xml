@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--OBi Configuration File-->
+<ParameterList>
+  <Object>
+    <!--Disable ITSP Provisioning because this only-->
+	<!--needs to be done once.-->
+    <Name>X_DeviceManagement.ITSPProvisioning.</Name>
+    <ParameterValueStruct>
+      <Name>Method</Name>
+      <Value>Disabled</Value>
+    </ParameterValueStruct>
+    <ParameterValueStruct>
+      <Name>ConfigURL</Name>
+      <Value></Value>
+    </ParameterValueStruct>
+  </Object>
+  <Object>
+    <!--Enable Google Voice for ITSP Profile A.-->
+    <Name>VoiceService.1.VoiceProfile.1.Line.1.</Name>
+    <ParameterValueStruct>
+      <Name>X_GApiRefreshToken</Name>
+      <Value>blam</Value>
+    </ParameterValueStruct>
+    <ParameterValueStruct>
+      <Name>X_GApiInitAccessToken</Name>
+      <Value>blorg</Value>
+    </ParameterValueStruct>
+  </Object>
+  <Object>
+    <!--Enable Google Voice for ITSP Profile B.-->
+    <Name>VoiceService.1.VoiceProfile.1.Line.2.</Name>
+    <ParameterValueStruct>
+      <Name>X_GApiRefreshToken</Name>
+      <Value>blam</Value>
+    </ParameterValueStruct>
+    <ParameterValueStruct>
+      <Name>X_GApiInitAccessToken</Name>
+      <Value>blorg</Value>
+    </ParameterValueStruct>
+  </Object>
+  <Object>
+    <!--Enable Google Voice for ITSP Profile C (not applicable for OBi1).-->
+    <Name>VoiceService.1.VoiceProfile.1.Line.3.</Name>
+    <ParameterValueStruct>
+      <Name>X_GApiRefreshToken</Name>
+      <Value>blam</Value>
+    </ParameterValueStruct>
+    <ParameterValueStruct>
+      <Name>X_GApiInitAccessToken</Name>
+      <Value>blorg</Value>
+    </ParameterValueStruct>
+  </Object>
+  <Object>
+    <!--Enable Google Voice for ITSP Profile D (not applicable for OBi1).-->
+    <Name>VoiceService.1.VoiceProfile.1.Line.4.</Name>
+    <ParameterValueStruct>
+      <Name>X_GApiRefreshToken</Name>
+      <Value>blam</Value>
+    </ParameterValueStruct>
+    <ParameterValueStruct>
+      <Name>X_GApiInitAccessToken</Name>
+      <Value>blorg</Value>
+    </ParameterValueStruct>
+  </Object>
+</ParameterList>
